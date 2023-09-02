@@ -5,8 +5,8 @@
     
     <entry>
       <title>Hello World</title>
-      <link href="/2023/08/30/hello-world/"/>
-      <url>/2023/08/30/hello-world/</url>
+      <link href="/chidaic/chidaic/2023/08/30/hello-world/"/>
+      <url>/chidaic/chidaic/2023/08/30/hello-world/</url>
       
         <content type="html"><![CDATA[<p>大家好，这是我的第一篇个人博客，现在只是测试，虽然是说大家好，但是根本就没有人看，所以不久之后也会被我删掉233</p><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><h3 id="三级标题"><a href="#三级标题" class="headerlink" title="三级标题"></a>三级标题</h3><h4 id="四级标题"><a href="#四级标题" class="headerlink" title="四级标题"></a>四级标题</h4><h5 id="五级标题"><a href="#五级标题" class="headerlink" title="五级标题"></a>五级标题</h5><h6 id="六级标题"><a href="#六级标题" class="headerlink" title="六级标题"></a>六级标题</h6><h1 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h1><pre><code class="c">//欧几里得算法求最大公约数int gcd(int a,int b)&#123;    if(a%b==0) return b;    else return gcd(b,a%b);&#125;</code></pre><h1 id="字体展示"><a href="#字体展示" class="headerlink" title="字体展示"></a>字体展示</h1><p><strong>强调</strong></p><p><em>斜体</em></p><p><del>删除线</del></p><p><code>print(Hello,World!)</code></p><blockquote><p>引用</p></blockquote><ul><li>列表一</li><li>列表二</li></ul><p><a href="https://github.com/">这是一个链接</a></p><p><img src="https://s2.loli.net/2023/09/01/ADczty3HIWLvPb9.jpg" alt="这是一张图片"></p><hr>]]></content>
       
