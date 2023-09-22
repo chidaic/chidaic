@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>自学Java---和C++的不同之处</title>
+      <link href="/chidaic/2023/09/22/Java%E7%AC%94%E8%AE%B0/java/"/>
+      <url>/chidaic/2023/09/22/Java%E7%AC%94%E8%AE%B0/java/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>曾经诋毁Java，现在学习Java。目前来看，中国的互联网开发岗位，依旧是以Java为主。<br>网上的Java教程已经许多，视频或者网页等形式，其中不乏许多优质教程。</p><p>视频课教程大家都比较推荐韩顺平老师的课程，而网站在线学习我选择的是<a href="https://www.cainiaojc.com/java/java-tutorial.html">菜鸟教程</a><br>目前的学习方式是在网站在线学习，为什么不看视频课，有以下原因：<br>(1)自己已经学习过c,c++，Python等语言，并不是0基础，目前视频教程多对0基础十分友好，但对于有一定编程基础的学习者来说，重复学习内容较多，视频的效率比较底下<br>(2)网站在线学习教程提供了很好的实例程序以及在线编译器，方便学习。</p><p>C++是自己所学的第一门面向对象语言，也是学校培养方案里唯一一门必修面向对象，自然是现阶段最熟悉的面向对象语言。Java同样也是面向对象语言，在学习的过程中与C++对比，总结一些不同之处，也有助于自己的学习记忆巩固。</p><h1 id="Java基本数据类型"><a href="#Java基本数据类型" class="headerlink" title="Java基本数据类型"></a>Java基本数据类型</h1><p>与C++不同的是，Java新增了数据类型<code>byte</code>。<br>    byte 数据类型是8位、有符号的，以二进制补码表示的整数；<br>    最小值是 -128（-2^7）；<br>    最大值是 127（2^7-1）；<br>    默认值是 0；<br>    byte 类型用在大型数组中节约空间，主要代替整数，因为 byte 变量占用的空间只有 int 类型的四分之一；<br>    实例：byte a &#x3D; 100，byte b &#x3D; -50。<br>在C++中可以使用 <code>unsigned char[3];</code> 起到相同的效果。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">PrimitiveTypeTest</span> &#123;  </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;  </span><br><span class="line">        <span class="comment">// byte  </span></span><br><span class="line">        System.out.println(<span class="string">&quot;基本类型：byte 二进制位数：&quot;</span> + Byte.SIZE);  </span><br><span class="line">        System.out.println(<span class="string">&quot;包装类：java.lang.Byte&quot;</span>);  </span><br><span class="line">        System.out.println(<span class="string">&quot;最小值：Byte.MIN_VALUE=&quot;</span> + Byte.MIN_VALUE);  </span><br><span class="line">        System.out.println(<span class="string">&quot;最大值：Byte.MAX_VALUE=&quot;</span> + Byte.MAX_VALUE);  </span><br><span class="line">        System.out.println();  </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/chidaic/2023/08/30/hello-world/"/>
       <url>/chidaic/2023/08/30/hello-world/</url>
