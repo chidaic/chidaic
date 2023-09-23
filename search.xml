@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>解决vscode报错gopls was not able to find modules in your workspace.</title>
+      <link href="/chidaic/2023/09/23/Golang%E7%AC%94%E8%AE%B0/Golang/"/>
+      <url>/chidaic/2023/09/23/Golang%E7%AC%94%E8%AE%B0/Golang/</url>
+      
+        <content type="html"><![CDATA[<h1 id="没有go-mod文件"><a href="#没有go-mod文件" class="headerlink" title="没有go.mod文件"></a>没有go.mod文件</h1><p>原因是当前目录没有go.mod文件，因此vscode会出现如下报错</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gopls was not able to find modules in your workspace. When outside of GOPATH, gopls needs to know which modules you are working on. You can fix this by opening your workspace to a folder inside a Go module, or by using a go.work file to specify multiple m</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>执行命令行<code>($ go mod init packagestudy)</code>即可<br>在文件同级目录下初始化一个新的Go模块，会自动创建一个<code>(go.mod)</code>文件</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Golang笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Go </tag>
+            
+            <tag> 报错 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>自学Java---和C++的不同之处</title>
       <link href="/chidaic/2023/09/22/Java%E7%AC%94%E8%AE%B0/java/"/>
       <url>/chidaic/2023/09/22/Java%E7%AC%94%E8%AE%B0/java/</url>
