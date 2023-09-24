@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>自学Go---和C++的不同之处</title>
+      <link href="/chidaic/2023/09/24/Golang%E7%AC%94%E8%AE%B0/gocompare/"/>
+      <url>/chidaic/2023/09/24/Golang%E7%AC%94%E8%AE%B0/gocompare/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>经由学长引荐，得到了可以学习Go的机会。Go是未来的一门趋势，有望取代目前互联网Java的地位。后端开发需学<br>本人主要在<a href="https://www.cainiaojc.com/golang/golang-tutorial.html">菜鸟教程</a>上进行学习</p><h1 id="Go语言数据类型"><a href="#Go语言数据类型" class="headerlink" title="Go语言数据类型"></a>Go语言数据类型</h1><p>数据类型指定有效的Go变量可以保存的数据类型。在Go语言中，类型分为以下四类：</p><pre><code>1、基本类型：数字，字符串和布尔值属于此类别。2、聚合类型：数组和结构属于此类别。3、引用类型：指针，切片，map集合，函数和Channel属于此类别。4、接口类型</code></pre><h2 id="基本类型"><a href="#基本类型" class="headerlink" title="基本类型"></a>基本类型</h2><p>在Go语言中，数字分为三个子类别：整数，浮点数，布尔类型</p><h3 id="整数"><a href="#整数" class="headerlink" title="整数"></a>整数</h3><p>在Go语言中，有符号和无符号整数都可以使用四种不同的大小，如下表所示。有符号的int由int表示，而无符号的整数由uint表示。<br>数据类型描述<br>int88位有符号整数<br>int1616位有符号整数<br>int3232位有符号整数<br>int6464位有符号整数<br>uint88位无符号整数<br>uint1616位无符号整数<br>uint3232位无符号整数<br>uint6464位无符号整数<br>intin和uint都包含相同的大小，无论是32位还是64位。<br>uintin和uint都包含相同的大小，无论是32位还是64位。<br>rune它是int32的同义词，也表示Unicode代码点。<br>byte它是int8的同义词。<br>uintptr它是无符号整数类型。它的宽度未定义，但是可以容纳指针值的所有位。</p><figure class="highlight go"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// 使用整数 </span></span><br><span class="line"><span class="keyword">package</span> main  </span><br><span class="line"><span class="keyword">import</span> <span class="string">&quot;fmt&quot;</span></span><br><span class="line">         </span><br><span class="line"><span class="function"><span class="keyword">func</span> <span class="title">main</span><span class="params">()</span></span> &#123; </span><br><span class="line">      </span><br><span class="line">    <span class="comment">// 使用8位无符号整型</span></span><br><span class="line">    <span class="keyword">var</span> X <span class="type">uint8</span> = <span class="number">225</span> </span><br><span class="line">    fmt.Println(X+<span class="number">1</span>, X) </span><br><span class="line">      </span><br><span class="line">    <span class="comment">// 使用16位有符号整型</span></span><br><span class="line">    <span class="keyword">var</span> Y <span class="type">int16</span> = <span class="number">32767</span> </span><br><span class="line">    fmt.Println(Y+<span class="number">2</span>, Y<span class="number">-2</span>)  </span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//输出如下</span></span><br><span class="line"><span class="comment">// 226 225</span></span><br><span class="line"><span class="comment">// -32767 32765</span></span><br></pre></td></tr></table></figure><p>与C++不同的是整数类型基本都是int附带位数，除此之外还有同Java相同的byte类型，以及新增的rune,uintptr</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Golang笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Go </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决vscode报错gopls was not able to find modules in your workspace.</title>
       <link href="/chidaic/2023/09/23/Golang%E7%AC%94%E8%AE%B0/Golang/"/>
       <url>/chidaic/2023/09/23/Golang%E7%AC%94%E8%AE%B0/Golang/</url>
@@ -32,8 +57,8 @@
     
     <entry>
       <title>自学Java---和C++的不同之处</title>
-      <link href="/chidaic/2023/09/22/Java%E7%AC%94%E8%AE%B0/java/"/>
-      <url>/chidaic/2023/09/22/Java%E7%AC%94%E8%AE%B0/java/</url>
+      <link href="/chidaic/2023/09/22/Java%E7%AC%94%E8%AE%B0/javacompare/"/>
+      <url>/chidaic/2023/09/22/Java%E7%AC%94%E8%AE%B0/javacompare/</url>
       
         <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>目前来看，中国的互联网开发岗位，依旧是以Java为主。<br>网上的Java教程已经许多，视频或者网页等形式，其中不乏许多优质教程。</p><p>视频课教程大家都比较推荐韩顺平老师的课程，而网站在线学习我选择的是<a href="https://www.cainiaojc.com/java/java-tutorial.html">菜鸟教程</a><br>目前的学习方式是在网站在线学习，为什么不看视频课，有以下原因：<br>(1)自己已经学习过c,c++，Python等语言，并不是0基础，目前视频教程多对0基础十分友好，但对于有一定编程基础的学习者来说，重复学习内容较多，视频的效率比较低下<br>(2)网站在线学习教程提供了很好的实例程序以及在线编译器，方便学习。</p><p>C++是自己所学的第一门面向对象语言，也是学校培养方案里唯一一门必修面向对象，自然是现阶段最熟悉的面向对象语言。Java同样也是面向对象语言，在学习的过程中与C++对比，总结一些不同之处，也有助于自己的学习记忆巩固。</p><h1 id="Java基本数据类型"><a href="#Java基本数据类型" class="headerlink" title="Java基本数据类型"></a>Java基本数据类型</h1><p>与C++不同的是，Java新增了数据类型<code>byte</code>。<br>    byte 数据类型是8位、有符号的，以二进制补码表示的整数；<br>    最小值是 -128（-2^7）；<br>    最大值是 127（2^7-1）；<br>    默认值是 0；<br>    byte 类型用在大型数组中节约空间，主要代替整数，因为 byte 变量占用的空间只有 int 类型的四分之一；<br>    实例：byte a &#x3D; 100，byte b &#x3D; -50。<br>在C++中可以使用 <code>unsigned char[3];</code> 起到相同的效果。</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">PrimitiveTypeTest</span> &#123;  </span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title function_">main</span><span class="params">(String[] args)</span> &#123;  </span><br><span class="line">        <span class="comment">// byte  </span></span><br><span class="line">        System.out.println(<span class="string">&quot;基本类型：byte 二进制位数：&quot;</span> + Byte.SIZE);  </span><br><span class="line">        System.out.println(<span class="string">&quot;包装类：java.lang.Byte&quot;</span>);  </span><br><span class="line">        System.out.println(<span class="string">&quot;最小值：Byte.MIN_VALUE=&quot;</span> + Byte.MIN_VALUE);  </span><br><span class="line">        System.out.println(<span class="string">&quot;最大值：Byte.MAX_VALUE=&quot;</span> + Byte.MAX_VALUE);  </span><br><span class="line">        System.out.println();  </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h1 id="Java变量类型"><a href="#Java变量类型" class="headerlink" title="Java变量类型"></a>Java变量类型</h1><p>在Java中，C++的成员变量叫做示例变量，而C++中的<code>const</code>常量在Java中则是<code>final</code></p>]]></content>
       
